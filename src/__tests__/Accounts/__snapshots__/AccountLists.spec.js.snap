@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountLists snapshot renders 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-striped"
+  >
+    <thead
+      className="thead-dark"
+    >
+      <tr>
+        <th
+          scope="col"
+        >
+          Account Number
+        </th>
+        <th
+          scope="col"
+        >
+          Account Name
+        </th>
+        <th
+          scope="col"
+        >
+          Account Type
+        </th>
+        <th
+          scope="col"
+        >
+          Currency
+        </th>
+        <th
+          scope="col"
+        >
+          Balance
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="row-clickable"
+    >
+      <tr
+        className="clickable-row table-cell"
+        onClick={[Function]}
+      >
+        <td>
+          119998888
+        </td>
+        <td>
+          savings
+        </td>
+        <td>
+          saving plus
+        </td>
+        <td>
+          SGD
+        </td>
+        <td>
+          100
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

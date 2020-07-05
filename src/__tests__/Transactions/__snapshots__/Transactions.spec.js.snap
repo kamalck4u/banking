@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transactions snapshot renders 1`] = `
+Array [
+  <div
+    className="jumbotron panel-header"
+  >
+    <h1
+      className="display-4"
+    >
+      Transaction History
+    </h1>
+    <p
+      className="lead"
+    >
+      Bonus Savings Account - 156478245
+    </p>
+    <hr
+      className="my-4"
+    />
+    <p>
+       
+    </p>
+  </div>,
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="table table-striped"
+    >
+      <thead
+        className="thead-dark"
+      >
+        <tr>
+          <th
+            scope="col"
+          >
+            Transaction#
+          </th>
+          <th
+            scope="col"
+          >
+            Date
+          </th>
+          <th
+            scope="col"
+          >
+            Amount
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="row-clickable"
+      />
+    </table>
+  </div>,
+]
+`;

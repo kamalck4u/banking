@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accounts snapshot renders 1`] = `
+Array [
+  <div
+    className="jumbotron panel-header"
+  >
+    <h1
+      className="display-4"
+    >
+      Welcome CONTOUR
+    </h1>
+    <p
+      className="lead"
+    >
+      Building the Future of Trade Finance
+    </p>
+    <hr
+      className="my-4"
+    />
+    <p>
+       
+    </p>
+  </div>,
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="table table-striped"
+    >
+      <thead
+        className="thead-dark"
+      >
+        <tr>
+          <th
+            scope="col"
+          >
+            Account Number
+          </th>
+          <th
+            scope="col"
+          >
+            Account Name
+          </th>
+          <th
+            scope="col"
+          >
+            Account Type
+          </th>
+          <th
+            scope="col"
+          >
+            Currency
+          </th>
+          <th
+            scope="col"
+          >
+            Balance
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="row-clickable"
+      />
+    </table>
+  </div>,
+]
+`;

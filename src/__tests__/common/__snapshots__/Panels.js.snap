@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panels snapshot renders GenericErrorPanel Component 1`] = `
+<div
+  className="card mb-3"
+>
+  <div
+    className="card-body"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <h5
+      className="card-title"
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-exclamation-triangle fa-lg"
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      />
+       
+      Error
+    </h5>
+    <p
+      className="card-text"
+    >
+      Some thing went wrong while loading data, Please try reload or login  again !!!
+    </p>
+    <p
+      className="card-text"
+    >
+      <small
+        className="text-muted"
+      >
+        if the issue persists, Please reach out to Customer Care on +65 9999 8888 or Relationship manager
+      </small>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Panels snapshot renders HeaderPanel Component 1`] = `
+<div
+  className="jumbotron panel-header"
+>
+  <h1
+    className="display-4"
+  />
+  <p
+    className="lead"
+  />
+  <hr
+    className="my-4"
+  />
+  <p>
+     
+  </p>
+</div>
+`;
+
+exports[`Panels snapshot renders LoaderPanelComponent 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-header"
+  >
+    <div
+      className="card-body"
+    >
+      <h3
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      />
+      <div
+        className="d-flex justify-content-center"
+      >
+        <div
+          className="spinner-border"
+          role="status"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

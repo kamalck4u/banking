@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionLists snapshot renders 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-striped"
+  >
+    <thead
+      className="thead-dark"
+    >
+      <tr>
+        <th
+          scope="col"
+        >
+          Transaction#
+        </th>
+        <th
+          scope="col"
+        >
+          Date
+        </th>
+        <th
+          scope="col"
+        >
+          Amount
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="row-clickable"
+    >
+      <tr
+        className="clickable-row table-cell"
+        onClick={[Function]}
+      >
+        <td>
+          1
+        </td>
+        <td>
+          2019-06-08T03:37:28 -08:00
+        </td>
+        <td>
+          $1,000.10
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

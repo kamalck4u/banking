@@ -1,0 +1,9 @@
+.row-clickable tr:hover {
+    cursor: pointer;
+    background-color: #dfe9ec !important;
+}
+.panel-header {
+    background-image: url('./assets/images/mountain.jpeg');
+    color: white;
+    text-align: center;
+}
