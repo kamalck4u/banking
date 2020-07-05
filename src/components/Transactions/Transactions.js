@@ -3,6 +3,7 @@ import { FetchTransactions } from '../../apis/FetchAccountDetails';
 import TransactionLists from './TransactionLists';
 import { GenericErrorPanel, HeaderPanel } from '../Common/Panels';
 import { TRANSACTIONS_HISTORY } from '../Common/Constants';
+import Navigations from '../Common/Navigations';
 
 const Transactions = (props) => {
 	const [transactions, setTransactions] = useState([]);
@@ -26,6 +27,7 @@ const Transactions = (props) => {
 
 	return (
 		<React.Fragment>
+			<Navigations home='/' />
 			{
 				account ? <HeaderPanel header={TRANSACTIONS_HISTORY} content={`${account.account_name} - ${account.account_number}`} /> : <HeaderPanel />
 			}

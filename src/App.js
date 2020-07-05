@@ -4,10 +4,9 @@ import Accounts from './components/Accounts/Accounts';
 import Transactions from './components/Transactions/Transactions';
 import TransactionDetails from './components/Transactions/TransactionDetails';
 
-
 const App = () => {
 	return (
-		<div className="ui container-md">
+		<div className="ui container-md" style={{ marginTop: '15px' }}>
 			<BrowserRouter>
 				<div>
 					<Switch>

@@ -1,11 +1,13 @@
 import React from 'react';
 import { HeaderPanel, GenericErrorPanel } from '../Common/Panels';
+import Navigations from '../Common/Navigations'
 import { REFERENCE_NUMBER, DATE, DESCRIPTION, STATUS, AMOUNT, TRANSACTIONS_DETAILS } from '../Common/Constants';
 
 const TransactionDetails = (props) => {
 	const transactionDetails = props.location.state ? props.location.state.transaction : undefined;
 	return (
 		<React.Fragment>
+			<Navigations back />
 			{
 				transactionDetails ? <HeaderPanel header={TRANSACTIONS_DETAILS} content={transactionDetails.from} /> : <HeaderPanel />
 			}

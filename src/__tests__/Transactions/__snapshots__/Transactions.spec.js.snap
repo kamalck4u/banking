@@ -3,6 +3,19 @@
 exports[`Transactions snapshot renders 1`] = `
 Array [
   <div
+    style={
+      Object {
+        "display": "inline",
+      }
+    }
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-home fa-2x nav-icon"
+      onClick={[Function]}
+    />
+  </div>,
+  <div
     className="jumbotron panel-header"
   >
     <h1

@@ -7,3 +7,8 @@
     color: white;
     text-align: center;
 }
+
+.nav-icon {
+	cursor: pointer;
+	margin-bottom: 10px;
+}
