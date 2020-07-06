@@ -1,5 +1,6 @@
 import React from 'react';
 import { ERROR_HEADER, ERROR_DESCRIPTION, ERROR_ADDITONAL_INFO } from './Constants';
+import { string } from 'prop-types';
 
 export const HeaderPanel = ({ header, content, description }) => {
 	return (
@@ -12,6 +13,11 @@ export const HeaderPanel = ({ header, content, description }) => {
 	);
 };
 
+HeaderPanel.propTypes = {
+	header: string,
+	content: string,
+	description: string
+}
 
 export const GenericErrorPanel = () => {
 	return (
@@ -44,3 +50,7 @@ export const Loader = ({ loaderText }) => {
 		</div>
 	);
 };
+
+Loader.propTypes = {
+	loaderText: string
+}

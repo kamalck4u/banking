@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { ACCOUNT_NUMBER, ACCOUNT_NAME, ACCOUNT_TYPE, CURRENCY, ACCOUNT_BALANCE, LOADER_TEXT_ACCOUNTS } from '../Common/Constants';
 import '../../App.css';
 import { Loader } from '../Common/Panels';
+import { array, bool } from 'prop-types';
 
 const AccountLists = ({ accounts, isLoading }) => {
 	const history = useHistory();
@@ -42,4 +43,10 @@ const AccountLists = ({ accounts, isLoading }) => {
 		</React.Fragment>
 	);
 };
+
+AccountLists.propTypes = {
+	accounts: array,
+	isLoading: bool
+}
+
 export default AccountLists;

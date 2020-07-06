@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { REFERENCE_NUMBER, DATE, AMOUNT, LOADER_TEXT_TRANSACTIONS } from '../Common/Constants';
 import { Loader } from '../Common/Panels';
 import '../../App.css';
+import { array, bool } from 'prop-types';
 
 const TransactionLists = ({ transactions, isLoading }) => {
 	const history = useHistory();
@@ -37,4 +38,13 @@ const TransactionLists = ({ transactions, isLoading }) => {
 		</React.Fragment>
 	);
 };
+
+TransactionLists.propTypes = {
+	transactions: array,
+	isLoading: bool
+
+}
+
 export default TransactionLists;
+
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import { string, bool } from 'prop-types'
 
 const Navigations = ({ home, back }) => {
 	const history = useHistory();
@@ -15,6 +16,12 @@ const Navigations = ({ home, back }) => {
 		</div>
 	);
 };
+
+Navigations.propTypes = {
+	home: string,
+	back: bool,
+}
+
 
 export default Navigations;
 
