@@ -7,11 +7,13 @@ import { shallow, configure } from 'enzyme';
 configure({ adapter: new Adapter() });
 
 const mockHistoryPush = jest.fn();
+const mockHistoryGoBack = jest.fn();
 
 jest.mock('react-router-dom', () => ({
 	...jest.requireActual('react-router-dom'),
 	useHistory: () => ({
-		push: mockHistoryPush
+		push: mockHistoryPush,
+		goBack: mockHistoryGoBack
 	}),
 }));
 
@@ -49,4 +51,10 @@ describe('Navigations', () => {
 		wrapper.find('i.fa-home').at(0).simulate('click');
 		expect(mockHistoryPush).toHaveBeenCalledWith('/accounts');
 	});
+
+	it('should redirect to Home page', () => {
+		wrapper.find('i.fa-chevron-left').at(0).simulate('click');
+		expect(mockHistoryGoBack).toHaveBeenCalled();
+	});
+
 });
