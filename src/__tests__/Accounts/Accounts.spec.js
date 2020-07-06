@@ -20,7 +20,7 @@ describe('Accounts Home page', () => {
 	});
 
 	it('should display welcome message', () => {
-		expect(wrapper.find('HeaderPanel').props()).toEqual({ content: 'Building the Future of Trade Finance', header: 'Welcome CONTOUR' });
+		expect(wrapper.find('HeaderPanel').props()).toEqual({ content: 'Building the Future of Trade Finance', header: 'WELCOME CONTOUR' });
 	});
 
 	it('should render AccountLists component', () => {
