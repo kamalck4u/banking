@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderPanel, GenericErrorPanel } from '../Common/Panels';
-import Navigations from '../Common/Navigations'
+import Navigations from '../Common/Navigations';
 import { REFERENCE_NUMBER, DATE, DESCRIPTION, STATUS, AMOUNT, TRANSACTIONS_DETAILS } from '../Common/Constants';
 
 const TransactionDetails = (props) => {

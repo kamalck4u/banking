@@ -17,7 +17,7 @@ HeaderPanel.propTypes = {
 	header: string,
 	content: string,
 	description: string
-}
+};
 
 export const GenericErrorPanel = () => {
 	return (
@@ -53,4 +53,4 @@ export const Loader = ({ loaderText }) => {
 
 Loader.propTypes = {
 	loaderText: string
-}
+};

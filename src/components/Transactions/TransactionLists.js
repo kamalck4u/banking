@@ -42,8 +42,7 @@ const TransactionLists = ({ transactions, isLoading }) => {
 TransactionLists.propTypes = {
 	transactions: array,
 	isLoading: bool
-
-}
+};
 
 export default TransactionLists;
 

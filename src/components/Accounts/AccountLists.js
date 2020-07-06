@@ -47,6 +47,6 @@ const AccountLists = ({ accounts, isLoading }) => {
 AccountLists.propTypes = {
 	accounts: array,
 	isLoading: bool
-}
+};
 
 export default AccountLists;

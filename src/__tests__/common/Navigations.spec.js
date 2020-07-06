@@ -40,7 +40,7 @@ describe('Navigations', () => {
 
 	beforeEach(() => {
 		wrapper = shallow(<Navigations home='/accounts' back />);
-	})
+	});
 
 	it('should show both home and back button', () => {
 		expect(wrapper.find('i.fa-home')).toHaveLength(1);
